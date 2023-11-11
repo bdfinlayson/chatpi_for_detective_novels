@@ -8,6 +8,11 @@ packages = [{include = "chatpi_for_detective_novels"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+transformers = "^4.35.0"
+datasets = "^2.14.6"
+evaluate = "^0.4.1"
+torch = "^2.1.0"
+jupyter = "^1.0.0"
 
 
 [build-system]
